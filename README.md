@@ -1,7 +1,9 @@
-# chenqiaodonghu
-记录【陈桥东湖】网站建立日志
+# 安装
+**安装cnpm**
+在命令行中输入 npm install -g cnpm --registry=http://registry.npm.taobao.org
 
-2017/05/17 阿里云注册域名，实名认证，备案 【阿里云注册域名，虚拟服务器】
-2017/05/20 备案拍照 and upload
-2017/05/21 Install vue-cli and create project named chenqiaodonghu in workspace.(C:\Users\Administrator\workspace\chenqiaodonghu)
-           Install tortoiseGit failed. Error code is 2503, waiting to be resolved.
+**安装项目所需的依赖**
+要安装依赖包，首先cd到项目文件夹然后运行命令 cnpm install
+
+**启动服务**
+npm run dev
