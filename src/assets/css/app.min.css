@@ -8604,7 +8604,7 @@ select {
     -webkit-appearance: none!important;
     -webkit-border-radius: 0;
     background-color: #FAFAFA;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+/*    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+); */
     background-position: 100% center;
     background-repeat: no-repeat;
     border-style: solid;
@@ -12140,8 +12140,8 @@ th.hide-for-touch {
 
 @font-face {
     font-family: FontAwesome;
-    src: url(../assets/fonts/fontawesome-webfont.eot?v=4.2.0);
-    src: url(../assets/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format("embedded-opentype"), url(../assets/fonts/fontawesome-webfont.woff?v=4.2.0) format("woff"), url(../assets/fonts/fontawesome-webfont.ttf?v=4.2.0) format("truetype"), url(../assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format("svg");
+/*    src: url(../assets/fonts/fontawesome-webfont.eot?v=4.2.0); */
+/*    src: url(../assets/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format("embedded-opentype"), url(../assets/fonts/fontawesome-webfont.woff?v=4.2.0) format("woff"), url(../assets/fonts/fontawesome-webfont.ttf?v=4.2.0) format("truetype"), url(../assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format("svg"); */
     font-weight: 400;
     font-style: normal
 }
@@ -15085,14 +15085,14 @@ html.touchevents button:not(.disabled):not([disabled]):hover>span.arrow {
 
 @font-face {
     font-family: AvenirNextLTPro-Demi;
-    src: url(../assets/fonts/28C41E_0_0.eot);
-    src: url(../assets/fonts/28C41E_0_0.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/28C41E_0_0.woff) format("woff"), url(../assets/fonts/28C41E_0_0.ttf) format("truetype")
+/*    src: url(../assets/fonts/28C41E_0_0.eot); */
+/*    src: url(../assets/fonts/28C41E_0_0.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/28C41E_0_0.woff) format("woff"), url(../assets/fonts/28C41E_0_0.ttf) format("truetype") */
 }
 
 @font-face {
     font-family: AvenirNextLTPro-Regular;
-    src: url(../assets/fonts/28C41E_1_0.eot);
-    src: url(../assets/fonts/28C41E_1_0.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/28C41E_1_0.woff) format("woff"), url(../assets/fonts/28C41E_1_0.ttf) format("truetype")
+/*    src: url(../assets/fonts/28C41E_1_0.eot); */
+/*    src: url(../assets/fonts/28C41E_1_0.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/28C41E_1_0.woff) format("woff"), url(../assets/fonts/28C41E_1_0.ttf) format("truetype") */
 }
 
 html.no-touchevents nav#navBar .cartcount:hover span.label,
@@ -15139,7 +15139,7 @@ nav#navBar.top-hide {
 nav#navBar>span {
     opacity: 0;
     cursor: pointer;
-    background-image: url(svg/intro/logoblack.svg)
+/*    background-image: url(svg/intro/logoblack.svg) */
 }
 
 nav#navBar .menu {
@@ -15184,7 +15184,7 @@ nav#navBar .menu {
     height: 52px;
     background-size: 18px 14px;
     transition: opacity 400ms cubic-bezier(.645, .045, .355, 1) 250ms, left .4s cubic-bezier(.25, .46, .45, .94);
-    background-image: url(svg/navbar/menu.svg);
+/*    background-image: url(svg/navbar/menu.svg); */
     opacity: 1
 }
 
@@ -15285,12 +15285,12 @@ nav#navBar.ready .menu {
 }
 
 .android.safari nav#navBar>span {
-    background-image: url(img/android/logo.png);
+/*    background-image: url(img/android/logo.png); */
     background-size: 82px 17px
 }
 
 .android.safari nav#navBar .menu {
-    background-image: url(img/android/menu.png)
+/*    background-image: url(img/android/menu.png) */
 }
 
 @-webkit-keyframes stretchdelay {
@@ -15919,7 +15919,7 @@ ul.cart-products li div button {
     height: 32px;
     color: #000;
     text-indent: -9999px;
-    background: url(svg/icons/closeblack.svg) left center no-repeat;
+/*    background: url(svg/icons/closeblack.svg) left center no-repeat; */
     background-size: 8px;
     margin: 0;
     padding: 0;
@@ -15973,7 +15973,7 @@ ul.cart-products li h4 {
     width: 32px;
     height: 32px;
     background-color: transparent;
-    background-image: url(img/android/closeblack.png);
+/*    background-image: url(img/android/closeblack.png); */
     background-position: center left;
     background-repeat: no-repeat
 }
@@ -16241,7 +16241,7 @@ ul.cart-products li h4 {
     background-size: 10px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(svg/icons/itemrow2black.svg)
+/*    background-image: url(svg/icons/itemrow2black.svg) */
 }
 
 .footer-bar li .items>span {
@@ -16272,34 +16272,34 @@ ul.cart-products li h4 {
 }
 
 .footer-bar li .items.row1 span {
-    background-image: url(svg/icons/itemrow1black.svg)
+/*    background-image: url(svg/icons/itemrow1black.svg) */
 }
 
 .footer-bar li .items.row4 span {
     background-size: 11px;
-    background-image: url(svg/icons/itemrow4black.svg)
+/*    background-image: url(svg/icons/itemrow4black.svg) */
 }
 
 .footer-bar li .items.next span {
-    background-image: url(svg/icons/arrowdownblack.svg)
+/*    background-image: url(svg/icons/arrowdownblack.svg) */
 }
 
 .footer-bar li .items.prev span {
-    background-image: url(svg/icons/arrowupblack.svg)
+/*    background-image: url(svg/icons/arrowupblack.svg) */
 }
 
 .footer-bar li .items.back span {
     background-size: 11px;
-    background-image: url(svg/icons/closeblack.svg)
+/*    background-image: url(svg/icons/closeblack.svg) */
 }
 
 .footer-bar li .items.zoom span,
 .footer-bar li .items.zoom-in span {
-    background-image: url(svg/icons/zoomblack.svg)
+/*    background-image: url(svg/icons/zoomblack.svg) */
 }
 
 .footer-bar li .items.zoom-out span {
-    background-image: url(svg/icons/zoomoutblack.svg)
+/*    background-image: url(svg/icons/zoomoutblack.svg) */
 }
 
 .footer-bar li .items.back span,
@@ -16448,19 +16448,19 @@ nav.footerbuttons.show {
 }
 
 .android.safari .footer-bar li .items span {
-    background-image: url(img/android/itemrow2black.png)
+/*    background-image: url(img/android/itemrow2black.png) */
 }
 
 .android.safari .footer-bar li .items.row1 span {
-    background-image: url(img/android/itemrow1black.png)
+/*    background-image: url(img/android/itemrow1black.png) */
 }
 
 .android.safari .footer-bar li .items.row4 span {
-    background-image: url(img/android/itemrow4black.png)
+/*    background-image: url(img/android/itemrow4black.png) */
 }
 
 .android.safari .footer-bar li .items.back span {
-    background-image: url(img/android/closeblack.png)
+/*    background-image: url(img/android/closeblack.png) */
 }
 
 .android.safari .footer-bar li .items.zoom,
@@ -16480,11 +16480,11 @@ nav.footerbuttons.show {
 }
 
 .desktop.safari .footer-bar li .items.next span {
-    background-image: url(img/safari/arrowdownblack.png)
+/*    background-image: url(img/safari/arrowdownblack.png) */
 }
 
 .desktop.safari .footer-bar li .items.prev span {
-    background-image: url(img/safari/arrowupblack.png)
+/*    background-image: url(img/safari/arrowupblack.png) */
 }
 
 .jspContainer {
@@ -16741,7 +16741,7 @@ body.cart-open .transform-container {
     position: relative;
     width: 82px;
     height: 17px;
-    background: url(svg/intro/logowhite.svg) center center no-repeat;
+/*    background: url(svg/intro/logowhite.svg) center center no-repeat; */
     background-size: 82px 17px;
     margin: 0 auto 50px;
     text-indent: -9999px
@@ -17268,7 +17268,7 @@ html.no-touchevents .backoffice button.inverse:hover {
 
 .backoffice select.cleaninput {
     color: #000;
-    background: url(svg/icons/triangledownblack.svg) calc(100% - 15px) center no-repeat;
+/*    background: url(svg/icons/triangledownblack.svg) calc(100% - 15px) center no-repeat; */
     background-size: 10px;
     cursor: pointer;
     -webkit-appearance: none;
@@ -17284,7 +17284,7 @@ html.no-touchevents .backoffice button.inverse:hover {
 }
 
 .backoffice select.cleaninput:focus {
-    background: url(svg/icons/triangledownblack.svg) calc(100% - 15px) center no-repeat;
+/*    background: url(svg/icons/triangledownblack.svg) calc(100% - 15px) center no-repeat; */
     background-size: 10px
 }
 
@@ -17416,7 +17416,7 @@ html.no-touchevents .backoffice button.inverse:hover {
     width: 24px;
     height: 24px;
     margin-top: 10px;
-    background-image: url(svg/icons/check.svg);
+/*    background-image: url(svg/icons/check.svg); */
     border-color: #d5d5d6
 }
 
@@ -17453,7 +17453,7 @@ html.no-touchevents .backoffice button.inverse:hover {
     top: 0;
     left: 0;
     border-radius: inherit;
-    background-image: url(svg/icons/radiodot.svg);
+/*    background-image: url(svg/icons/radiodot.svg); */
     -webkit-transform: scale(0);
     transform: scale(0);
     background-size: 18px;
@@ -18200,7 +18200,7 @@ label:first-of-type {
     display: block;
     position: absolute;
     transition: opacity 500ms ease, right 450ms ease;
-    background: url(svg/icons/arrowleft.svg) center left no-repeat;
+/*    background: url(svg/icons/arrowleft.svg) center left no-repeat; */
     background-size: contain;
     top: 50%;
     left: 43px;
@@ -18285,7 +18285,7 @@ label:first-of-type {
     display: block;
     position: absolute;
     transition: opacity 500ms ease, right 450ms ease;
-    background: url(svg/icons/arrowright.svg) center right no-repeat;
+/*    background: url(svg/icons/arrowright.svg) center right no-repeat; */
     background-size: contain;
     top: 50%;
     right: -22px;
@@ -19079,7 +19079,7 @@ html.no-touchevents .product.ready.onscreen img {
     top: 62px;
     padding: 20px;
     margin: 0;
-    background: url(svg/icons/closewhite.svg) center center no-repeat;
+/*    background: url(svg/icons/closewhite.svg) center center no-repeat; */
     border: none;
     text-indent: -9999px;
     width: 12px;
@@ -19324,7 +19324,7 @@ html.no-touchevents .filterList ul li:hover {
     vertical-align: middle;
     width: 17px;
     height: 11px;
-    background: url(svg/icons/envelope.svg) no-repeat;
+/*    background: url(svg/icons/envelope.svg) no-repeat; */
     background-size: contain
 }
 
@@ -19370,7 +19370,7 @@ html.no-touchevents .filterList ul li:hover {
         padding-bottom: 0
     }
     #filters button.closeFilters {
-        background-image: url(svg/icons/mobileclosewhite.svg);
+/*        background-image: url(svg/icons/mobileclosewhite.svg); */
         width: 16px;
         height: 16px;
         background-size: 16px;
@@ -19427,7 +19427,7 @@ html.no-touchevents .filterList ul li:hover {
         display: block;
         position: relative;
         height: 60px;
-        background: url(svg/icons/filtermobiledown.svg) right center no-repeat;
+/*        background: url(svg/icons/filtermobiledown.svg) right center no-repeat; */
         background-size: 12px;
         cursor: pointer;
         border-top: 1px solid #212121;
@@ -19468,7 +19468,7 @@ html.no-touchevents .filterList ul li:hover {
         transition: max-height 1s ease
     }
     .filterList.show h3 {
-        background: url(svg/icons/filtermobileup.svg) right center no-repeat;
+/*        background: url(svg/icons/filtermobileup.svg) right center no-repeat; */
         background-size: 12px;
         border-bottom: 1px solid #212121;
         height: 61px
@@ -19502,7 +19502,7 @@ html.no-touchevents .filterList ul li:hover {
         bottom: 0
     }
     .android.safari #filters button.closeFilters {
-        background-image: url(img/android/closewhite.png);
+/*        background-image: url(img/android/closewhite.png); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 12px
@@ -19565,7 +19565,7 @@ html.no-touchevents .filterList ul li:hover {
 .android.safari #filters button.closeFilters {
     background-size: 12px;
     background-color: transparent;
-    background-image: url(img/android/closewhite.png);
+/*    background-image: url(img/android/closewhite.png); */
     background-repeat: no-repeat;
     background-position: center center
 }
@@ -19777,7 +19777,7 @@ html.no-touchevents #collection-footer #filterBtn:hover {
 .product-page .product-container .content .image-container.zoomedin figure .hover {
     cursor: pointer;
     cursor: zoom-out;
-    cursor: url(svg/cursors/zoomoutblack.png) -10 -10, zoom-out
+/*    cursor: url(svg/cursors/zoomoutblack.png) -10 -10, zoom-out */
 }
 
 .product-page .product-container figure {
@@ -19817,7 +19817,7 @@ html.no-touchevents #collection-footer #filterBtn:hover {
     z-index: 4;
     cursor: pointer;
     cursor: zoom-in;
-    cursor: url(svg/cursors/zoomblack.png) -10 -10, zoom-in;
+/*    cursor: url(svg/cursors/zoomblack.png) -10 -10, zoom-in; */
     background: rgba(255, 0, 0, 0)
 }
 
@@ -20568,7 +20568,7 @@ html.no-touchevents .product-page .upsells .scroll-container ul li:hover {
 
 .product-page .info ul.info-buttons li button i {
     opacity: 0;
-    background: url(svg/icons/triangleupwhite.svg) center center no-repeat;
+/*    background: url(svg/icons/triangleupwhite.svg) center center no-repeat; */
     width: 9px;
     height: 100%;
     background-size: 9px 5px;
@@ -20585,7 +20585,7 @@ html.no-touchevents .product-page .upsells .scroll-container ul li:hover {
 
 .product-page .info ul.info-buttons li button.active i,
 .product-page .info ul.info-buttons li button:hover i {
-    background-image: url(svg/icons/triangledownwhite.svg)
+/*    background-image: url(svg/icons/triangledownwhite.svg) */
 }
 
 .product-page .info ul.info-buttons li button.active {
@@ -21122,14 +21122,14 @@ html.touchevents .currencyswitch.open .currency {
 }
 
 .single-footer nav.footerbuttons .sizeBtn {
-    background: url(svg/icons/triangledownblack.svg) 165px center no-repeat #FFF;
+/*    background: url(svg/icons/triangledownblack.svg) 165px center no-repeat #FFF; */
     background-size: 9px;
     text-align: left;
     padding-top: 1.15rem
 }
 
 .single-footer nav.footerbuttons .sizeBtn.open {
-    background-image: url(svg/icons/triangleupblack.svg);
+/*    background-image: url(svg/icons/triangleupblack.svg); */
     background-size: 9px
 }
 
@@ -21138,11 +21138,11 @@ html.touchevents .currencyswitch.open .currency {
 }
 
 .desktop.safari .single-footer nav.footerbuttons .sizeBtn {
-    background-image: url(img/safari/triangledownblack.png)
+/*    background-image: url(img/safari/triangledownblack.png) */
 }
 
 .desktop.safari .single-footer nav.footerbuttons .sizeBtn.open {
-    background-image: url(img/safari/triangleupblack.png)
+/*    background-image: url(img/safari/triangleupblack.png) */
 }
 
 .product-page.transition-out .single-footer {
@@ -21219,7 +21219,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
     top: 62px;
     padding: 20px;
     margin: 0;
-    background: url(svg/icons/closewhite.svg) center center no-repeat;
+/*    background: url(svg/icons/closewhite.svg) center center no-repeat; */
     border: none;
     text-indent: -9999px;
     width: 12px;
@@ -21354,7 +21354,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
         padding-bottom: 0
     }
     #sizechart button.closeSizeChart {
-        background-image: url(svg/icons/mobileclosewhite.svg);
+/*        background-image: url(svg/icons/mobileclosewhite.svg); */
         width: 16px;
         height: 16px;
         background-size: 16px;
@@ -21382,7 +21382,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
         padding-bottom: 0
     }
     .android.safari #sizechart button.closeSizeChart {
-        background-image: url(img/android/closewhite.png);
+/*        background-image: url(img/android/closewhite.png); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 12px
@@ -21725,7 +21725,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
     background-size: 11px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(svg/icons/closeblack.svg)
+/*    background-image: url(svg/icons/closeblack.svg) */
 }
 
 [data-component=waitlist] .success {
@@ -21767,7 +21767,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
     overflow: hidden;
     z-index: 100;
     cursor: pointer;
-    cursor: url(../assets/img/index/intro/cursordown.png), pointer
+/*    cursor: url(../assets/img/index/intro/cursordown.png), pointer */
 }
 
 #intro.white {
@@ -21811,7 +21811,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
     position: absolute;
     width: 82px;
     height: 17px;
-    background: url(svg/intro/logoblack.svg) center center no-repeat;
+/*    background: url(svg/intro/logoblack.svg) center center no-repeat; */
     background-size: 82px 17px;
     margin: -9px -36px;
     text-indent: -9999px;
@@ -21843,7 +21843,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
     right: 33px;
     bottom: 59px;
     opacity: 1;
-    background: url(svg/cursors/intro.svg) bottom center no-repeat;
+/*    background: url(svg/cursors/intro.svg) bottom center no-repeat; */
     background-size: 32px;
     transition: opacity .35s cubic-bezier(.25, .46, .45, .94) .2s;
     margin: -32px -16px
@@ -21861,7 +21861,7 @@ html.no-touchevents #sizechart button.closeSizeChart:hover span.label {
 }
 
 .android.safari #intro h1 {
-    background-image: url(img/android/logo.png)
+/*    background-image: url(img/android/logo.png) */
 }
 
 .is-ie9 #intro figure {
@@ -22428,7 +22428,7 @@ figure.asidepage-content#gallery-maps #maps-footer ul li:not(.disabled):not([dis
     position: absolute;
     width: 10px;
     height: 83px;
-    background: url(svg/icons/aboutarrow.svg) center center no-repeat;
+/*    background: url(svg/icons/aboutarrow.svg) center center no-repeat; */
     background-size: 9px 83px;
     text-align: center;
     text-indent: -9999px;
@@ -22897,7 +22897,7 @@ figure.asidepage-content#gallery-maps #maps-footer ul li:not(.disabled):not([dis
         text-indent: 20px;
         margin-bottom: 31px;
         font-size: .6875rem;
-        background: url(svg/icons/arrowleft.svg) 25px center no-repeat #000;
+/*        background: url(svg/icons/arrowleft.svg) 25px center no-repeat #000; */
         background-size: 12px;
         cursor: pointer;
         overflow: hidden;
@@ -22987,7 +22987,7 @@ figure.asidepage-content#gallery-maps #maps-footer ul li:not(.disabled):not([dis
     top: 6px;
     padding: 20px;
     margin: 0;
-    background: url(svg/icons/closewhite.svg) center center no-repeat;
+/*    background: url(svg/icons/closewhite.svg) center center no-repeat; */
     border: none;
     text-indent: -9999px;
     width: 12px;
@@ -23137,7 +23137,7 @@ figure.asidepage-content#gallery-maps #maps-footer ul li:not(.disabled):not([dis
         padding-bottom: 0
     }
     #sale-overlay button.closeSaleOverlay {
-        background-image: url(svg/icons/mobileclosewhite.svg);
+/*        background-image: url(svg/icons/mobileclosewhite.svg); */
         width: 16px;
         height: 16px;
         background-size: 16px;
@@ -23171,7 +23171,7 @@ figure.asidepage-content#gallery-maps #maps-footer ul li:not(.disabled):not([dis
         margin-top: 10px
     }
     .android.safari #sale-overlay button.closeSaleOverlay {
-        background-image: url(img/android/closewhite.png);
+/*        background-image: url(img/android/closewhite.png); */
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 12px
