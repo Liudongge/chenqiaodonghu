@@ -13,6 +13,7 @@
         <h2>Ecosystem</h2>
         <ul>
             <router-link to="/ETQ" replace tag="li"><a>ETO</a></router-link>
+            <router-link to="/homepage" tag="li"><a>HOMEPAGE</a></router-link>
             <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
             <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
             <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
@@ -26,9 +27,9 @@ export default {
     data() {
         return {
             msg: 'Welcome to ChenQiaoDongHu!'
-        }
+        };
     }
-}
+};
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

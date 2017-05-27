@@ -25,6 +25,9 @@ module.exports = {
             'named': 'never',
             'asyncArrow': 'always'
         }],
+        // requires semicolons at the end of statements
+        'semi': ['error', 'always'],
+        'semi-spacing': ['error', {'before': false, 'after': false}],
         // allow paren-less arrow functions
         'arrow-parens': 0,
         // allow async-await

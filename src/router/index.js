@@ -1,9 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import ETQ from '@/components/ETQ'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Hello from '@/components/Hello';
+import ETQ from '@/components/ETQ';
+import home from '@/components/home';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     routes: [{
@@ -14,5 +15,9 @@ export default new Router({
         path: '/ETQ',
         name: 'ETQ',
         component: ETQ
+    }, {
+        path: '/homepage',
+        name: 'homepage',
+        component: home
     }]
-})
+});
