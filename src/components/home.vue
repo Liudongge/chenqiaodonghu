@@ -1,78 +1,93 @@
 <template>
-    <div>
-        <Menu :theme="theme" active-name="1">
-            <Menu-group title="内容管理">
-                <Menu-item name="1">
-                    <Icon type="document-text"></Icon>
-                    文章管理
-                </Menu-item>
-                <Menu-item name="2">
-                    <Icon type="chatbubbles"></Icon>
-                    评论管理
-                </Menu-item>
-            </Menu-group>
-            <Menu-group title="统计分析">
-                <Menu-item name="3">
-                    <Icon type="heart"></Icon>
-                    用户留存
-                </Menu-item>
-                <Menu-item name="4">
-                    <Icon type="heart-broken"></Icon>
-                    流失用户
-                </Menu-item>
-            </Menu-group>
-        </Menu>
-        <br>
-        <p>切换主题</p>
-        <Radio-group v-model="theme">
-            <Radio label="light"></Radio>
-            <Radio label="dark"></Radio>
-        </Radio-group>
-        <Menu mode="horizontal" :theme="theme1" active-name="1">
-            <Menu-item name="1">
-                <Icon type="ios-paper"></Icon>
-                内容管理
-            </Menu-item>
-            <Menu-item name="2">
-                <Icon type="ios-people"></Icon>
-                用户管理
-            </Menu-item>
-            <Submenu name="3">
-                <template slot="title">
-                    <Icon type="stats-bars"></Icon>
-                    统计分析
-                </template>
-                <Menu-group title="使用">
-                    <Menu-item name="3-1">新增和启动</Menu-item>
-                    <Menu-item name="3-2">活跃分析</Menu-item>
-                    <Menu-item name="3-3">时段分析</Menu-item>
-                </Menu-group>
-                <Menu-group title="留存">
-                    <Menu-item name="3-4">用户留存</Menu-item>
-                    <Menu-item name="3-5">流失用户</Menu-item>
-                </Menu-group>
-            </Submenu>
-            <Menu-item name="4">
-                <Icon type="settings"></Icon>
-                综合设置
-            </Menu-item>
-        </Menu>
-        <br>
-        <p>切换主题</p>
-        <Radio-group v-model="theme1">
-            <Radio label="light"></Radio>
-            <Radio label="dark"></Radio>
-            <Radio label="primary"></Radio>
-        </Radio-group>
+    <div class="app-container">
+        <div class="app-header">
+            <div class="app-titlebar">
+                <div class="logo">
+                    <img src="../assets/images/logo_donghu.png">
+                </div>
+                <Menu mode="horizontal" :theme="menuTheme" active-name="1">
+                    <Menu-item name="shidi">
+                        <Icon type="earth"></Icon>
+                        东湖湿地
+                    </Menu-item>
+                    <Menu-item name="canyin">
+                        <Icon type="beer"></Icon>
+                        东湖餐饮
+                    </Menu-item>
+                    <Menu-item name="zhusu">
+                        <Icon type="ios-home"></Icon>
+                        东湖住宿
+                    </Menu-item>
+                    <Menu-item name="chenqiao">
+                        <Icon type="images"></Icon>
+                        陈桥风光
+                    </Menu-item>
+                    <Menu-item name="contractUs">
+                        <Icon type="ios-telephone"></Icon>
+                        联系我们
+                    </Menu-item>
+                    <span style="margin-right: 20px"><b>切换主题</b></span>
+                    <Radio-group v-model="menuTheme">
+                        <Radio label="light"></Radio>
+                        <Radio label="dark"></Radio>
+                        <Radio label="primary"></Radio>
+                    </Radio-group>
+                </Menu>
+            </div>
+        </div>
+        <div class="layout">
+            <div class="layout-breadcrumb" v-if="currentMenu" >
+                <Breadcrumb>
+                    <Breadcrumb-item>{{currentMenu.partSection}}</Breadcrumb-item>
+                </Breadcrumb>
+            </div>
+            <div class="layout-content">
+                <router-view></router-view>
+            </div>
+        </div>
     </div>
 </template>
 <script>
 export default {
     data() {
         return {
-            theme: 'light',
-            theme1: 'light'
+            menuTheme: 'light'
         };
     }
 };
 </script>
+
+<style>
+    .app-header{
+        position:relative;
+        height:60px;
+        .app-titlebar{
+            .logo{
+                height:60px;
+                position:absolute;
+                z-index:999;
+                top:0;
+                img{
+                    height:59px;
+                }
+            }
+            ul{
+                padding-left:180px;
+            }
+        }
+    } 
+    .layout{
+        border: 1px solid #d7dde4;
+        background: #f5f7f9;
+    }
+    .layout-breadcrumb{
+        padding: 10px 15px 0;
+    }
+    .layout-content{
+        min-height: 200px;
+        margin: 15px;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 4px;
+    }
+</style>
