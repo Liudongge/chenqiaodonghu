@@ -57,7 +57,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
     .app-header{
         position:relative;
         height:60px;
