@@ -5,7 +5,7 @@
                 <div class="logo">
                     <img src="../assets/images/logo_donghu.png">
                 </div>
-                <Menu mode="horizontal" :theme="menuTheme" active-name="1">
+                <Menu mode="horizontal" :theme="menuTheme" width="auto" :active-name="activeMenuName" @on-select="selectedMenu">
                     <Menu-item name="shidi">
                         <Icon type="earth"></Icon>
                         东湖湿地
@@ -36,11 +36,6 @@
             </div>
         </div>
         <div class="layout">
-            <div class="layout-breadcrumb" v-if="currentMenu" >
-                <Breadcrumb>
-                    <Breadcrumb-item>{{currentMenu.partSection}}</Breadcrumb-item>
-                </Breadcrumb>
-            </div>
             <div class="layout-content">
                 <router-view></router-view>
             </div>
@@ -51,39 +46,50 @@
 export default {
     data() {
         return {
-            menuTheme: 'light'
+            menuTheme: 'light',
+            activeMenuName: 'shidi'
         };
+    },
+    methods: {
+        selectedMenu(name) {
+            this.$router.push({name});
+        }
+    },
+    mounted: function() {
+        // this.selectedMenu('shidi');
     }
 };
 </script>
-
 <style lang="scss">
-    .app-header{
-        position:relative;
-        height:60px;
-        .app-titlebar{
-            .logo{
-                height:60px;
-                position:absolute;
-                z-index:999;
-                top:0;
-                img{
-                    height:59px;
+    .app-header {
+        position: relative;
+        height: 60px;
+        .app-titlebar {
+            .logo {
+                height: 60px;
+                position: absolute;
+                z-index: 999;
+                top: 0;
+                img {
+                    height: 59px;
                 }
             }
-            ul{
-                padding-left:180px;
+            ul {
+                padding-left: 180px;
             }
         }
-    } 
-    .layout{
+    }
+
+    .layout {
         border: 1px solid #d7dde4;
         background: #f5f7f9;
     }
-    .layout-breadcrumb{
+
+    .layout-breadcrumb {
         padding: 10px 15px 0;
     }
-    .layout-content{
+
+    .layout-content {
         min-height: 200px;
         margin: 15px;
         overflow: hidden;
