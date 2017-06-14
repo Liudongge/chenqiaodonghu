@@ -34,6 +34,11 @@ export default new Router({
                 path: '/contractUs',
                 name: 'contractUs',
                 component: resolve => require(['../views/contractUs'], resolve)
+            },
+            {
+                path: '/test',
+                name: 'test',
+                component: resolve => require(['../views/fromZhihu'], resolve)
             }
         ]
     }]

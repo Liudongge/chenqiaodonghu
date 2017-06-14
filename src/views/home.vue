@@ -2,7 +2,7 @@
     <div class="app-container">
         <div class="app-header">
             <div class="app-titlebar">
-                <div class="logo">
+                <div class="logo" @click="selectLogo">
                     <img src="../assets/images/logo_donghu.png">
                 </div>
                 <Menu mode="horizontal" :theme="menuTheme" width="auto" :active-name="activeMenuName" @on-select="selectedMenu">
@@ -51,12 +51,15 @@ export default {
         };
     },
     methods: {
+        selectLogo() {
+            this.$router.push('test');
+        },
         selectedMenu(name) {
             this.$router.push({name});
         }
     },
     mounted: function() {
-        // this.selectedMenu('shidi');
+        this.selectedMenu('shidi');
     }
 };
 </script>
