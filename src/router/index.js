@@ -38,7 +38,7 @@ export default new Router({
             {
                 path: '/test',
                 name: 'test',
-                component: resolve => require(['../views/fromZhihu'], resolve)
+                component: resolve => require(['../views/fullpage'], resolve)
             }
         ]
     }]

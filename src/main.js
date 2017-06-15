@@ -3,10 +3,15 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+
+// import iview
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
-
 Vue.use(iView);
+
+// import jquery.fullPage.css
+import './assets/css/jquery.fullPage.css';
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
