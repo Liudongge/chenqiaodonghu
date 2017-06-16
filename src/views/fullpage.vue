@@ -30,10 +30,10 @@
                     <h1>多彩纤薄机身</h1>
                     <p>魅蓝 note2 延续了多彩配色风格，并首次引入魅族 MX 系列的金属灰配色，深邃，且富有质感。魅蓝 note2 适于年轻个性，也完美契合轻熟商务。仅 149g 的重量，薄至 8.7mm 的厚度，更性感的 R 角弧度让单手握持毫无繁重。</p>
                 </div>
-                <div class="thin-img">
+                <!-- <div class="thin-img">
                     <img alt="thin" src="../assets/imgForFullpage/phone-blue.png" class="thin-img1">
                     <img alt="thin" src="../assets/imgForFullpage/phone-white.png" class="thin-img2">
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="section cnc">
