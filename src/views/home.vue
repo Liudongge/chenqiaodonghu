@@ -1,6 +1,6 @@
 <template>
     <div class="app-container">
-        <div class="app-header">
+        <!-- <div class="app-header">
             <div class="app-titlebar">
                 <div class="logo" @click="selectLogo">
                     <img src="../assets/images/logo_donghu.png">
@@ -34,7 +34,7 @@
                     </Radio-group>
                 </Menu>
             </div>
-        </div>
+        </div> -->
         <div class="layout">
             <div class="layout-content">
                 <router-view></router-view>
@@ -52,19 +52,19 @@ export default {
     },
     methods: {
         selectLogo() {
-            this.$router.push('test');
+            this.$router.push('index');
         },
         selectedMenu(name) {
             this.$router.push({name});
         }
     },
     mounted: function() {
-        this.selectedMenu('shidi');
+        this.selectedMenu('index');
     }
 };
 </script>
 <style lang="scss">
-    .app-header {
+    /* .app-header {
         position: relative;
         height: 60px;
         .app-titlebar {
@@ -81,7 +81,7 @@ export default {
                 padding-left: 180px;
             }
         }
-    }
+    } */
 
     .layout {
         border: 1px solid #d7dde4;

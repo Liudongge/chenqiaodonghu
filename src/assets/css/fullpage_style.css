@@ -29,18 +29,23 @@ a:hover { color: #31a5e7;}
 .login { position: absolute; right: 0; top: 31px;}
 .login a { margin: 0 5px; padding-top: 31px;}
 
-.banner { background: url(../imgForFullpage/bg1-s.jpg) 50% 0 no-repeat;}
+/*滚动一*/
+/*.banner { background: url(../imgForFullpage/bg1-s.jpg) 50% 0 no-repeat;}*/
+.banner { background: url(../images/bg/bg1-s.jpg) 50% 0 no-repeat;}
 .banner-desc { position: absolute; width: 386px; margin: 0 auto; color: #FFF; bottom: 95px; left: 50%; margin-left: -193px;}
 .banner-desc h1 { text-align: center;}
 
-.thin { background: url(../imgForFullpage/bg2.jpg) 50% 0 no-repeat;}
+/*滚动二*/
+/*.thin { background: url(../imgForFullpage/bg2.jpg) 50% 0 no-repeat;}*/
+/*.thin { background: url(../images/bg/bg2-s.jpg) 50% 0 no-repeat;}*/
 .thin-desc { width: 574px; margin: 0 auto; padding-top: 126px; text-align: center;}
 .thin-img { position: absolute; top: 168px; left: 50%; margin-top: 100px; margin-left: -600px;}
 .thin-img img { position: absolute;}
 .thin-img1 { left: 230px; width: 400px;}
 .thin-img2 { left: 480px; width: 500px;}
 
-.cnc { background: #ff8fa5 url(../imgForFullpage/bg3-s.jpg) center 0 no-repeat;}
+/*.cnc { background: #ff8fa5 url(../imgForFullpage/bg3-s.jpg) center 0 no-repeat;}*/
+.cnc { background: #ff8fa5 url(../images/bg/bg3-s.jpg) center 0 no-repeat;}
 .cnc-desc { padding-top: 40%; width: 400px;}
 
 .screen-desc { position: relative; width: 540px; padding-top: 100px; z-index: 1;}

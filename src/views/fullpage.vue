@@ -2,148 +2,138 @@
     <div id="dowebok">
         <div class="section header fp-auto-height">
             <div class="center-wrap clearfix">
-                <h1 class="meizu-logo"><a href="http://www.dowebok.com/">MEIZU</a></h1>
+                <h1 class="donghu-logo"></h1>
                 <ul class="nav">
-                    <li><a href="javascript:">在线商店</a></li>
-                    <li><a href="javascript:">产品</a></li>
-                    <li><a href="javascript:">专卖店</a></li>
-                    <li><a href="javascript:">Flyme</a></li>
-                    <li><a href="javascript:">服务</a></li>
-                    <li><a href="javascript:">社区</a></li>
+                    <li><a @click="selectedMenu('shidi')">
+                        <Icon type="earth"></Icon>东湖湿地
+                    </a></li>
+                    <li><a @click="selectedMenu('canyin')">
+                        <Icon type="beer"></Icon>东湖餐饮
+                    </a></li>
+                    <li><a @click="selectedMenu('zhusu')">
+                        <Icon type="ios-home"></Icon>东湖住宿
+                    </a></li>
+                    <li><a @click="selectedMenu('chenqiao')">
+                        <Icon type="images"></Icon>陈桥风光
+                    </a></li>
+                    <li><a @click="selectedMenu('contractUs')">
+                        <Icon type="ios-telephone"></Icon>联系我们
+                    </a></li>
                 </ul>
-                <div class="login">
+                <!-- <div class="login">
                     <a href="javascript:">注册</a>|<a href="javascript:">登陆</a>
-                </div>
-            </div>
-        </div>
-        <div class="section banner active">
-            <div class="center-wrap">
-                <div class="desc banner-desc">
-                    <h1>青年良品</h1>
-                    <p>追求极致，轻易不说完美&mdash;&mdash;半年时间内，我们便更新了魅蓝 note2。它从各个方面都更进一步；无论是 R 角弧线、还是更佳的相机算法、甚或是全新的 mBack 键……如此多的改进，只为给你一台更加完美的「青年良品」。</p>
-                </div>
-            </div>
-        </div>
-        <div class="section thin">
-            <div class="center-wrap">
-                <div class="desc thin-desc">
-                    <h1>多彩纤薄机身</h1>
-                    <p>魅蓝 note2 延续了多彩配色风格，并首次引入魅族 MX 系列的金属灰配色，深邃，且富有质感。魅蓝 note2 适于年轻个性，也完美契合轻熟商务。仅 149g 的重量，薄至 8.7mm 的厚度，更性感的 R 角弧度让单手握持毫无繁重。</p>
-                </div>
-                <!-- <div class="thin-img">
-                    <img alt="thin" src="../assets/imgForFullpage/phone-blue.png" class="thin-img1">
-                    <img alt="thin" src="../assets/imgForFullpage/phone-white.png" class="thin-img2">
                 </div> -->
             </div>
         </div>
-        <div class="section cnc">
+        <div class="section screen1 active">
             <div class="center-wrap">
-                <div class="desc cnc-desc">
-                    <h1>一体化成型 CNC 精雕</h1>
-                    <p>更为成熟的一体化成型工艺被运用于魅蓝 note2 上。外部聚碳酸酯材质后盖包裹着内里的镁合金骨架，温润手感与坚实结构均完美继承。mBack 键首次出现在魅蓝系列，经 CNC 精加工后的铝合金按键加固环，视觉冲击与金属质感更强烈。</p>
+                <div class="desc screen1-desc">
+                    <h1></h1>
+                    <p></p>
                 </div>
             </div>
         </div>
-        <div class="section screen">
+        <div class="section screen2">
             <div class="center-wrap">
-                <div class="desc screen-desc">
-                    <h1>5.5 英寸 1080P 全贴合屏幕</h1>
-                    <p>5.5 英寸 1080P Full HD 屏幕，IGZO 显示技术可让每台手机都有高度统一的出色表现，也具备绝佳的低功耗特性。403PPI 带来细腻的视觉体验，对比度高达 1000：1。屏幕亮度则为 450cd/m²，户外强光下依旧清晰可见。GFF 全贴合，避免反光影响，屏显透彻。</p>
-                    <ul class="parameters-list">
+                <div class="desc screen2-desc">
+                    <h1>苍鹭</h1>
+                    <p></p>
+                </div>
+                <!-- <div class="screen2-img">
+                    <img alt="screen2" src="../assets/assets/images/bg/phone-blue.png" class="screen2-img1">
+                    <img alt="screen2" src="../assets/assets/images/bg/phone-white.png" class="screen2-img2">
+                </div> -->
+            </div>
+        </div>
+        <div class="section screen3">
+            <div class="center-wrap">
+                <div class="desc screen3-desc">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="section screen4">
+            <div class="center-wrap">
+                <div class="desc screen4-desc">
+                    <h1>青头浅鸭</h1>
+                    <p>国家濒危保护动物，在这里嬉闹玩耍</p>
+                    <!-- <ul class="parameters-list">
                         <li>
                             <h2>403</h2><span>PPI</span></li>
                         <li>
                             <h2>1000 : 1</h2><span>对比度</span></li>
                         <li>
                             <h2>450cd/m²</h2><span>亮度</span></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
-            <div class="screen-img">
-                <img alt="screen" src="../assets/imgForFullpage/screen.png">
+            <!-- <div class="screen4-img">
+                <img alt="screen4" src="../assets/assets/images/bg/screen4.png">
+            </div> -->
+        </div>
+        <div class="section screen5">
+            <div class="center-wrap">
+                <div class="desc screen5-desc">
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <!-- <div class="screen5-img">
+                    <img alt="screen5" src="../assets/assets/images/bg/playgame.png?v=2">
+                </div> -->
             </div>
         </div>
-        <div class="section cpu">
+        <div class="section screen6">
             <div class="center-wrap">
-                <div class="desc cpu-desc">
-                    <h1>64 位八核 CPU 三核心图形处理器</h1>
-                    <p>新一代 64 位 MT6753 处理器，八颗 A53 架构核心可根据具体使用场景进行智能调配。灵活兼顾高性能大型游戏与日常轻度使用，无需习惯「斤斤计较」的电量规划。图形处理器为三核心 64 位 Mali T720，视频播放画面顺滑流畅。</p>
+                <div class="desc screen6-desc">
+                    <h1>旭日东升</h1>
+                    <p>笼罩在清晨薄雾中的油菜花海</p>
                 </div>
-                <div class="cpu-img">
-                    <img alt="cpu" src="../assets/imgForFullpage/playgame.png?v=2">
+            </div>
+            <!-- <div class="screen6-img">
+                <img alt="screen6" src="../assets/assets/images/bg/card.jpg" style="opacity: 1;">
+                <img alt="" src="../assets/assets/images/bg/cc-a.png" class="cc cc1" style="opacity: 1;">
+                <img alt="" src="../assets/assets/images/bg/cc-b.png" class="cc cc2" style="opacity: 0;">
+            </div> -->
+        </div>
+        <div class="section screen7">
+            <div class="center-wrap">
+                <div class="desc screen7-desc">
+                    <h1>芦苇丛中，蛙鸣鸟叫</h1>
+                    <p>感受自然和动物的亲密接触</p>
                 </div>
             </div>
         </div>
-        <div class="section net">
+        <div class="section screen8">
             <div class="center-wrap">
-                <div class="desc net-desc">
-                    <h1>五模十三频 双 4G 双卡双待</h1>
-                    <p>不再受限硬件，支持 TD-LTE 与 FDD-LTE 双 4G 制式，无缝切换中国移动中国联通。单卡槽双 Nano-SIM 卡位简洁机身设计，主卡位还可复用兼容最大 128GB 内存卡扩展。
-                        <br>*公开版可支持中国移动中国联通双 4G</p>
+                <div class="desc screen8-desc">
+                    <h1>湿地湖畔，天蓝水清</h1>
+                    <p>感受大自然的安逸与恬静</p>
                 </div>
             </div>
-            <div class="net-img">
-                <img alt="net" src="../assets/imgForFullpage/card.jpg" style="opacity: 1;">
-                <img alt="" src="../assets/imgForFullpage/cc-a.png" class="cc cc1" style="opacity: 1;">
-                <img alt="" src="../assets/imgForFullpage/cc-b.png" class="cc cc2" style="opacity: 0;">
-            </div>
+            <!-- <div class="screen8-img">
+                <img alt="screen8" src="../assets/assets/images/bg/bbb.png">
+            </div> -->
         </div>
-        <div class="section camera">
+        <div class="section screen9">
             <div class="center-wrap">
-                <div class="desc camera-desc">
-                    <h1>1300 万像素主摄像头<br>双色温双闪光灯</h1>
-                    <p>魅蓝 note2 主摄像头沿用专业的三星 1300 万像素 CMOS，成像锐利细节丰富。双色温双闪光灯，暗光环境下白平衡精准自然。零延时快门拍照，生活每一瞬息皆为永恒。前置 500 万像素配合升级过的 FotoNation 智能美颜算法，按下快门的瞬间，系统即可完成美肤调亮，静待分享社交圈。</p>
+                <div class="desc screen9-desc">
+                    <h1>没错！这就是我家小宝贝儿！</h1>
+                    <p>知书达理，贤惠可人的小宝贝儿～～～～<br>哦哈哈哈啊哈哈</p>
                 </div>
             </div>
-        </div>
-        <div class="section battery">
-            <div class="center-wrap">
-                <div class="desc battery-desc">
-                    <h1>3100mAh 典型容量<br>SONY 等电芯</h1>
-                    <p>电池典型值容量为 3100mAh，在同等价位实属少见。采购高成本的 SONY/ATL 等电芯，只因安全耐用。</p>
-                </div>
-            </div>
-            <div class="battery-img">
-                <img alt="battery" src="../assets/imgForFullpage/bbb.png">
-            </div>
-        </div>
-        <div class="section flyme">
-            <div class="center-wrap">
-                <div class="desc flyme-desc">
-                    <h1>基于 Android 5.1 内核的全新 Flyme 4.5 系列</h1>
-                    <p>Android 5.1 的优秀特性需结合 64 位处理器才能最大化释放。在全新的 Flyme 4.5 系统上，可切实感受到最先进的 Android 内存管控机制与电池续航控制。</p>
-                </div>
-            </div>
-            <div class="flyme-img">
-                <img class="flyme-pic1" src="../assets/imgForFullpage/p1.png">
-                <img class="flyme-pic2" src="../assets/imgForFullpage/p2.png">
-                <img class="flyme-pic3" src="../assets/imgForFullpage/p3.png">
-            </div>
+            <!-- <div class="screen9-img">
+                <img class="screen9-pic1" src="../assets/assets/images/bg/p1.png">
+                <img class="screen9-pic2" src="../assets/assets/images/bg/p2.png">
+                <img class="screen9-pic3" src="../assets/assets/images/bg/p3.png">
+            </div> -->
         </div>
         <div class="section footer fp-auto-height">
             <div class="footer-link">
                 <div class="center-wrap">
                     <div class="clearfix">
                         <dl>
-                            <dt>在线商店</dt>
-                            <dd><a href="javascript:">MX4 Pro</a></dd>
-                            <dd><a href="javascript:">MX4</a></dd>
-                            <dd><a href="javascript:">耳机</a></dd>
-                            <dd><a href="javascript:">保护壳</a></dd>
-                        </dl>
-                        <dl>
-                            <dt>Flyme OS</dt>
-                            <dd><a href="javascript:">云服务</a></dd>
-                            <dd><a href="javascript:">固件下载</a></dd>
-                            <dd><a href="javascript:">软件商店</a></dd>
-                            <dd><a href="javascript:">查找手机</a></dd>
-                        </dl>
-                        <dl>
-                            <dt>关于我们</dt>
-                            <dd><a href="javascript:">关于魅族</a></dd>
-                            <dd><a href="javascript:">加入我们</a></dd>
-                            <dd><a href="javascript:">联系我们</a></dd>
-                            <dd><a href="javascript:">法律声明</a></dd>
+                            <dt>在线预约</dt>
                         </dl>
                         <dl>
                             <dt>关注我们</dt>
@@ -153,8 +143,8 @@
                             <dd><a href="javascript:">官方微信</a></dd>
                         </dl>
                         <dl>
-                            <dt>客服热线</dt>
-                            <dd>400-788-3333</dd>
+                            <dt>联系热线</dt>
+                            <dd>0373-8521777</dd>
                         </dl>
                     </div>
                 </div>
@@ -170,8 +160,13 @@
     // import js and jquery
     import '../assets/js/jquery.fullPage.js';
     import $ from 'jquery';
-    import '../assets/css/fullpage_style.css';
+    // import '../assets/css/fullpage_style.css';
     export default {
+        methods: {
+            selectedMenu(name) {
+                this.$router.push({name});
+            }
+        },
         mounted: function() {
             $(function() {
                 var $mlNav = $('.ml-nav');
@@ -202,3 +197,135 @@
         }
     };
 </script>
+<style scope>
+body, div, h1, h2, h3, h4, h5, h5, p, ul, ol, li, dl, dt, dd { margin: 0; padding: 0;}
+ul, ol { list-style-type: none;}
+
+body { font: 14px "Microsoft Yahei",Arial,Helvetica,sans-serif; color: #515151;}
+a { color: #515151; text-decoration: none;}
+a:hover { color: #31a5e7;}
+
+.clearfix:after { content: ""; display: table; clear: both;}
+
+.ml-nav { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; padding: 15px 0; background-color: rgba(255, 255, 255, 0.85);}
+.buy-now { position: absolute; right: 0; top: 0; width: 100px; height: 36px; line-height: 36px; text-align: center; color: #fff; background-color: #3db1fa;}
+.buy-now:hover { color: #fff;}
+
+.center-wrap { position: relative; z-index: 1; width: 1040px; height: 100%; margin: 0 auto;}
+.desc { position: relative; z-index: 1;}
+
+.section { overflow: hidden;}
+.section h1 { margin-bottom: 20px; line-height: 1.4; font-size: 40px; font-weight: 400;}
+.section p { line-height: 25px;}
+
+.section .donghu-logo { float: left; margin: 0; padding: 0;}
+.donghu-logo { float: left; width: 150px; height: 150px; font-size: 0; background-image: url(../assets/images/bg/logo.jpg);}
+.nav { float: right;}
+.nav li { float: left;}
+.nav a { display: block; padding: 31px 22px 30px;}
+.nav a i{ margin-right: 6px;}
+
+.login { position: absolute; right: 0; top: 31px;}
+.login a { margin: 0 5px; padding-top: 31px;}
+
+/*滚动一*/
+/*.screen1 { background: url(../assets/images/bg/bg1-s.jpg) 50% 0 no-repeat;}*/
+.screen1 { background: url(../assets/images/bg/bg1-s.jpg) 50% 0 no-repeat;}
+.screen1-desc { position: absolute; width: 386px; margin: 0 auto; color: #FFF; bottom: 95px; left: 50%; margin-left: -193px;}
+.screen1-desc h1 { text-align: center;}
+
+/*滚动二*/
+/*.screen2 { background: url(../assets/images/bg/bg2.jpg) 50% 0 no-repeat;}*/
+.screen2 { background: url(../assets/images/bg/bg2-s.jpg) 50% 0 no-repeat;}
+.screen2-desc { width: 574px; margin: 0 auto; padding-top: 126px; padding-left: 100%; text-align: center;}
+.screen2-img { position: absolute; top: 168px; left: 50%; margin-top: 100px; margin-left: -600px;}
+.screen2-img img { position: absolute;}
+.screen2-img1 { left: 230px; width: 400px;}
+.screen2-img2 { left: 480px; width: 500px;}
+
+/*.screen3 { background: #ff8fa5 url(../assets/images/bg/bg3-s.jpg) center 0 no-repeat;}*/
+.screen3 { background: #ff8fa5 url(../assets/images/bg/bg3-s.jpg) center 0 no-repeat;}
+.screen3-desc { padding: 20% 0 0 30%; width: 680px;}
+
+.screen4 { background: url(../assets/images/bg/bg4-s.jpg) center 0 no-repeat;}
+.screen4-desc { position: relative; width: 540px; padding-top: 100px; z-index: 1;}
+.parameters-list { margin-top: 28px; width: 230px;}
+.parameters-list li { position: relative; border-top: #333 1px solid; border-bottom: #333 1px solid; margin-bottom: -1px;}
+.parameters-list li h2 { font-size: 32px; font-weight: 400; height: 80px; line-height: 80px; margin-top: 0!important;}
+.parameters-list li i { display: inline-block; position: absolute; top: 66px; font-size: 12px;}
+.parameters-list li span { position: absolute; top: 30px; right: 0; font-size: 14px;}
+.parameters-list li.ps h2 { position: relative; line-height: 90px;}
+.parameters-list li.ps span { top: 26px;}
+.screen4-img { position: absolute; bottom: 0; right: 0; line-height: 0;}
+.screen4-img img { width: 900px;}
+
+.screen5 { background: url(../assets/images/bg/bg5-s.jpg) center 0 no-repeat;}
+.screen5-desc { padding-top: 10%; width: 610px; margin: 0 auto;}
+.screen5-img { position: absolute; bottom: -346px; left: 50%; margin-left: -500px;}
+.screen5-img img { width: 1000px;}
+
+.screen6 { background: url(../assets/images/bg/bg6-s.jpg) center 0 no-repeat;}
+.screen6-desc { position: absolute; right: 0; text-align: right; padding-top: 20%; width: 520px; z-index: 1;}
+.screen6-img { position: absolute; top: 4%; left: -264px;}
+.screen6-img img { width: 1200px;}
+.screen6-img .cc { position: absolute; top: 384px; left: 520px; width: 378px;}
+.screen6-img .cc2 { top: 385px;}
+
+.screen7 { background: url(../assets/images/bg/bg7-s.jpg) center 0 no-repeat;}
+.screen7-desc { position: absolute; padding-top: 30%; left: 144px; width: 460px;}
+
+.screen8 { background: url(../assets/images/bg/bg8-s.jpg) center 0 no-repeat;}
+.screen8-desc { position: absolute; right: 0; padding-top: 26%; width: 410px; text-align: right;}
+.screen8-img { position: absolute; bottom: -10px; left: -200px;}
+.screen8-img img { width: 1000px;}
+
+.screen9 { background: url(../assets/images/bg/bg9-s.jpg) center 0 no-repeat;}
+.screen9-desc { padding-left: 50%; padding-top: 18%; text-align: center; color: #000000;}
+.screen9-img { position: absolute; top: 0; left: 50%; margin-left: -600px; padding-top: 400px; width: 1200px; height: 752px; z-index: 1;}
+.screen9-img { position: absolute; top: 0; left: 50%; margin-left: -400px; padding-top: 290px; width: 800px; height: 752px; z-index: 1;}
+.screen9-img img { position: absolute;}
+.screen9-pic1 { width: 296px; left: 0; padding-top: 60px;}
+.screen9-pic2 { width: 310px; left: 236px; z-index: 1;}
+.screen9-pic3 { width: 296px; left: 482px; padding-top: 60px;}
+
+.footer-link { padding: 30px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;}
+.footer-link dl { float: left; width: 19.9%;}
+.footer-link dt { line-height: 45px; font-weight: 700;}
+.footer-link dd { line-height: 28px;}
+.footer-link a { color: #515151; text-decoration: none;}
+.footer-link a:hover { color: #31a5e7;}
+
+.copyright { padding: 20px 0; text-align: center;}
+
+#fp-nav ul li:first-child, #fp-nav ul li:last-child { display: none;}
+
+/* @media screen4 and (min-width:1920px) {
+    .screen1 { background: url(../assets/images/bg/bg1.jpg) center 0 no-repeat;}
+    .screen2 { background: url(../assets/images/bg/bg2.jpg) center 0 no-repeat;}
+    .screen3 { background: url(../assets/images/bg/bg3.jpg) center 0 no-repeat;}
+    .screen4 { background: url(../assets/images/bg/bg4.jpg) center 0 no-repeat;}
+    .screen5 { background: url(../assets/images/bg/bg5.jpg) center 0 no-repeat;}
+    .screen7 { background: url(../assets/images/bg/bg7.jpg) center 0 no-repeat;}
+    .screen9 { background: url(../assets/images/bg/bg9.jpg) center 0 no-repeat;}
+    .screen3-desc { padding-top: 50%;}
+    .screen2-img { margin-top: 100px; margin-left: -720px;}
+    .screen2-img2 { left: 400px;}
+    .screen2-img1 { left: 230px; width: auto;}
+    .screen2-img2 { left: 480px; width: auto;}
+    .screen4-desc { padding-top: 200px;}
+    .screen4-img img { width: 1200px;}
+    .screen5-img { position: absolute; bottom: -300px; left: 50%; margin-left: -666px;}
+    .screen5-img img { width: 1200px;}
+    .screen6-img { top: 16%; left: 0;}
+    .screen8-img img { width: 1200px;}
+    .screen9-img { position: absolute; top: 0; left: 50%; margin-left: -600px; padding-top: 400px; width: 1200px; height: 752px; z-index: 1;}
+    .screen9-img img { position: absolute;}
+    .screen9-pic1 { left: 0; padding-top: 60px; width: auto;}
+    .screen9-pic2 { left: 368px; width: auto; z-index: 1;}
+    .screen9-pic3 { left: 755px; padding-top: 60px; width: auto;}
+    .parameters-list li h2 { height: 100px; line-height: 100px;}
+} */
+/*@media screen4 and (max-width:1440px) {
+    .screen3 { background: url(../assets/images/bg/bg3-xs.jpg) center 0 no-repeat;}
+}*/
+</style>

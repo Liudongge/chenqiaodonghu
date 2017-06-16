@@ -36,8 +36,8 @@ export default new Router({
                 component: resolve => require(['../views/contractUs'], resolve)
             },
             {
-                path: '/test',
-                name: 'test',
+                path: '/index',
+                name: 'index',
                 component: resolve => require(['../views/fullpage'], resolve)
             }
         ]
