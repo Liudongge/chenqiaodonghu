@@ -1,22 +1,22 @@
 <template>
-    <div id="dowebok">
+    <div id="fullpage">
         <div class="section header fp-auto-height">
-            <div class="center-wrap clearfix">
-                <h1 class="donghu-logo"></h1>
+            <div class="menu clearfix">
+                <!-- <h1 class="donghu-logo"></h1> -->
                 <ul class="nav">
                     <li><a @click="selectedMenu('shidi')">
                         <Icon type="earth"></Icon>东湖湿地
                     </a></li>
-                    <li><a @click="selectedMenu('canyin')">
+                    <li><a @click="selectedMenu('shidi')">
                         <Icon type="beer"></Icon>东湖餐饮
                     </a></li>
-                    <li><a @click="selectedMenu('zhusu')">
+                    <li><a @click="selectedMenu('shidi')">
                         <Icon type="ios-home"></Icon>东湖住宿
                     </a></li>
-                    <li><a @click="selectedMenu('chenqiao')">
+                    <li><a @click="selectedMenu('shidi')">
                         <Icon type="images"></Icon>陈桥风光
                     </a></li>
-                    <li><a @click="selectedMenu('contractUs')">
+                    <li><a @click="selectedMenu('shidi')">
                         <Icon type="ios-telephone"></Icon>联系我们
                     </a></li>
                 </ul>
@@ -170,7 +170,7 @@
         mounted: function() {
             $(function() {
                 var $mlNav = $('.ml-nav');
-                $('#dowebok').fullpage({
+                $('#fullpage').fullpage({
                     verticalCentered: !1,
                     navigation: !0,
                     onLeave: function(index, nextIndex, direction) {
@@ -211,6 +211,7 @@ a:hover { color: #31a5e7;}
 .buy-now { position: absolute; right: 0; top: 0; width: 100px; height: 36px; line-height: 36px; text-align: center; color: #fff; background-color: #3db1fa;}
 .buy-now:hover { color: #fff;}
 
+.menu { position: relative; z-index: 1; width: 100%; height: 100%; margin: 0 auto;}
 .center-wrap { position: relative; z-index: 1; width: 1040px; height: 100%; margin: 0 auto;}
 .desc { position: relative; z-index: 1;}
 
@@ -218,9 +219,9 @@ a:hover { color: #31a5e7;}
 .section h1 { margin-bottom: 20px; line-height: 1.4; font-size: 40px; font-weight: 400;}
 .section p { line-height: 25px;}
 
-.section .donghu-logo { float: left; margin: 0; padding: 0;}
-.donghu-logo { float: left; width: 150px; height: 150px; font-size: 0; background-image: url(../assets/images/bg/logo.jpg);}
-.nav { float: right;}
+/*.section .donghu-logo { float: left; margin: 0; padding: 0;}
+.donghu-logo { float: left; width: 150px; height: 150px; font-size: 0; background-image: url(../assets/images/bg/logo.jpg);}*/
+.nav { float: right; font-size: 18px;}
 .nav li { float: left;}
 .nav a { display: block; padding: 31px 22px 30px;}
 .nav a i{ margin-right: 6px;}

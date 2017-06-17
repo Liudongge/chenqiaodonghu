@@ -35,6 +35,11 @@
                 </Menu>
             </div>
         </div> -->
+        <div class="app-header">
+            <!-- 增加logo，待完成20170617 -->
+            <!-- <img alt="donghu-logo" src="../assets/images/logo_donghu.png" class="donghu-logo"> -->
+            <img alt="chenqiaodonghu" src="../assets/images/chenqiaodonghu.png" class="chenqiaodonghu">
+        </div>
         <div class="layout">
             <div class="layout-content">
                 <router-view></router-view>
@@ -82,7 +87,18 @@ export default {
             }
         }
     } */
-
+    
+    .app-header {
+        background-color: rgb(212, 212, 212);;
+    }
+    .donghu-logo { 
+        float: left;
+        width: 150px;
+        height: 150px;
+    }
+    .chenqiaodonghu {
+        padding-left: 35%
+    }
     .layout {
         border: 1px solid #d7dde4;
         background: #f5f7f9;
