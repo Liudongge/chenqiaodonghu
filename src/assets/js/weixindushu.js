@@ -3,6 +3,7 @@ APP_VERSION = navigator.appVersion;
 INIT_PAGE = 0;
 var GLOBAL = { 'DEVICE_TYPE': 0, 'HORIZONTAL_STYLE': false };
 STYLE_SHEET_ADD = true;
+// 在IE8浏览器中的表现样式
 if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.match(/MSIE 6./) || USER_AGENT.match(/MSIE 9./)) {
     var weReadIndexIE8 = function() {
         var e = {
@@ -184,9 +185,11 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
             document.body.style.fontSize = a / 1366 * 100 + '%';
         }
     };
+/* 在其他浏览器中的表现样式 */
 } else {
     var helper = function() {
         var a = {
+            // window.onresize时调用，作用是延时调用参数函数
             debounce: function(c, b) {
                 var d = null;
                 return function() {
@@ -198,6 +201,7 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
                     }, b);
                 };
             },
+            // 暂时未被调用
             renderStyle: function(c, b, d) {
                 d = d || false;
                 if (d) {
@@ -209,6 +213,7 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
         };
         return a;
     }();
+    // 主体函数，方法均定义在weRead中
     var weRead = function(g) {
         var ay = {
             init: function() {
